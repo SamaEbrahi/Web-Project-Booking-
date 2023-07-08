@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style4.css">
+    <link href="../images/logo.png" rel="shortcut icon">
+</head>
+</head>
+
+<body>
+    <section id="nav">
+        <div>
+            <h2 class="c1">Booking<span class="span">.com</span></h2>
+
+        </div>
+    </section>
+    <!-- start head 1 -->
+    <section id="head1">
+        <div>
+            <h1 class="c2">Sign in with your phone</h1>
+        </div>
+        <div class="form">
+            <form  name="myform" onsubmit="return test()" action="../Html/index6.html">
+                <label name="p" for="p1" class="c3">phone number</label>
+                <br>
+                <select>
+                    <option>Egypt(+20)</option>
+                    <option> Abkhazia(+7) </option>
+                    <option>Algeria(+213)</option>
+                    <option>Albania(+355)</option>
+                    <option>American samoa(+1 684)</option>
+                    <option>Andora(+376)</option>
+                    <option>Angola(+244)</option>
+                    <option>Argentina(+54)</option>
+                    <option>Aruba(+297)</option>
+                    <option>Ausralia(+61)</option>
+                    <option>Bahrain(+973)</option>
+                    <option>Congo(+242)</option>
+                    <option>Costa rica(+506)</option>
+                    <option>Cuba(+53)</option>
+                    <option>Denmaek(+45)</option>
+                    <option> Djibouti(+253)</option>
+                    <option>East Timor(+670)</option>
+                    <option>Ecuador(+593)</option>
+                    <option>El Salvador(+503)</option>
+                    <option>Estonia(+372)</option>
+                    <option>Ethiopia(+251)</option>
+                    <option>fijii(+679)</option>
+                    <option>Finland(+358)</option>
+                    <option>France(+33)</option>
+                    <option>French Guiana(+597)</option>
+                    <option>Gabon(+241)</option>
+                    <option>Georgia(+995)</option>
+                    <option>Germany(+49)</option>
+                    <option>Ghana(+233)</option>
+                    <option> Greece(+30) </option>
+                    <option>Greenland(+299)</option>
+                    <option>Haiti(+509)</option>
+                    <option>Hong kong(+852)</option>
+                    <option>Andora(+376)</option>
+                    <option>Iceland(+354)</option>
+                    <option>india(+91)</option>
+                    <option>Iran(+98)</option>
+                    <option>Iraq(+964)</option>
+                    <option>Italy(+39)</option>
+                    <option>Japan(+81)</option>
+                    <option>Jersey(+44 1534)</option>
+                    <option>Jordan(+962)</option>
+                    <option>Kenya(+254)</option>
+                    <option> KOsovo(+381)</option>
+                    <option>Kuwait(+965)</option>
+                    <option>Laos(+856)</option>
+                    <option>Lebanon (+961)</option>
+                    <option>Libya(+218)</option>
+                    <option>Libria(+231)</option>
+                    <option>Macau (+853)</option>
+                    <option>Malawi(+265)</option>
+                    <option>Malasia(+60)</option>
+                    <option> Maldives(+960)</option>
+                    <option>Mali(+223)</option>
+                    <option>Mexico(+52)</option>
+                    <option>Moroco(+212)</option>
+                </select>
+                <input id="phone" name="ps" id="p1" type="text"  placeholder="enter your phone number">
+               <!-- <a href="../Html/indix.html"> <input class="c4" type="submit" value="continue with phone"></a> -->
+          <button class="c4"><a href="../Html/indix.html">continue with phone</a></button>
+            </form>
+            <div class="c5">
+                ___________or use one of these options ____________
+
+            </div>
+            <div class="div">
+                <a class="af" href="https://web.facebook.com" target="blank"> <i class="fab fa-facebook"></i></a>
+                <a class="af2" href="https://www.google.com/" target="blank"><i class="fab fa-google"></i></a>
+                <a class="af3" href=index4.html target="blank"> <i class="fas fa-envelope"></i></a>
+                <br>
+         
+            </div>
+            <div class="ft" >
+                <hr>
+                <br>
+                By signing in or creating an account, you agree with our <a href="#" class="af5"> Terms & Conditions</a> and
+                 <a class="af5"href="#">Privacy Statement </a>
+            </div>
+            <hr>
+            <div class="ft2"> 
+                All rights reserved.<br>
+        Copyright (2006-2021) – Booking.com™ 
+            </div>
+    </section>
+    <script>
+        function test(){
+            var parr=["01128590822"];
+            var parr1=["01098689626"];
+            var p=document.forms["myform"]["ps"].value;
+            var pp=document.forms["myform"]["pss"].value;
+
+           
+           
+            for(var i=0 ; i<2; i++){
+                if(( p == parr[i])||(pp==parr1[i]))
+                return true;
+                else if(   p == "" ||pp==""){
+                    alert("Phone Empty ");
+                    return false;
+                }
+            }
+            return false;
+        }
+    </script>
+</body>
+
+</html>

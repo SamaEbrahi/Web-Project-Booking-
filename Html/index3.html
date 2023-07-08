@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style3.css">
+    <link href="../images/logo.png" rel="shortcut icon">
+</head>
+<body>
+    <!-- start navbar in register -->
+    <section id="nav">
+        <div>
+            <h2 class="c1">Booking<span class="span">.com</span></h2>
+        </div>
+    </section>
+    <!-- start head 1 -->
+    <section id="head1">
+      <div>
+          <h1 class="c2">create password</h1>
+        
+      </div>
+    <div class="p1">
+        Use a minimum of 10 characters, including uppercase letters, lowercase letters, and numbers.
+    </div>
+      <div class="form">   
+        <form name="myform" onsubmit="return test()" action="../Html/index4.html">
+            <label name="p" class="c3" for="p1">password </label>
+            <input name="ps" class="pass" type="password" id="p1" placeholder=" Enter complex passwoed" required minlength="10" maxlength="20">
+            <label name="pp" class="c5" for="p2">confirm password </label>
+            <input name="pss" class="pass" type="password" id="p2" placeholder=" Enter complex passwoed" required minlength="10" maxlength="20">
+            <input class="c4" type="submit" value="Create account">
+        </form>
+        </div>
+        <hr>
+        <div class="ft" >
+            By signing in or creating an account, you agree with our <a href="#" class="af5"> Terms & Conditions</a> and
+             <a class="af5"href="#">Privacy Statement </a>
+        </div>
+        <hr>
+        <div class="ft2"> 
+            All rights reserved.<br>
+    Copyright (2006-2021) – Booking.com™ 
+        </div>
+    </section>
+    <script>
+        function test(){
+            var parr=["01128590822"];
+            var parr1=["01098689626"];
+            var p=document.forms["myform"]["ps"].value;
+            var pp=document.forms["myform"]["pss"].value;
+
+           
+           
+            for(var i=0 ; i<2; i++){
+                if(( p == parr[i])||(pp==parr1[i]))
+                return true;
+                else if(   p == "" ||pp==""){
+                    alert("Password Empty ");
+                    return false;
+                }
+            }
+            return false;
+        }
+    </script>
+    <script src="../Jv/8.js">
+
+    </script>
+</body>
+</html>

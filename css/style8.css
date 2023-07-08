@@ -1,0 +1,224 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* start navbar */
+.c1
+{
+    color: white;
+    margin-left:  150px;
+}
+#navbar{
+    background-color:#003580;
+    padding: 15px;
+
+}
+.div1 ul li{
+    display: inline-block;
+}
+.div1 ul a{
+    text-decoration: none;
+    color: white;
+}
+#d{
+    display: flex;
+}
+.div2{
+    margin-left: 680px;
+    margin-bottom: 30px;
+}
+.list ul{
+    margin-bottom: 50px;
+}
+.l1{
+  margin: 5px 8px;
+}
+.l2{
+    margin: 2px 8px;
+  
+  }
+.l2 img{
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.l3{
+    margin: 1px 8px 8px 8px;
+    border: 1px solid white;
+    padding: 5px 10px;
+
+  }
+.l4{
+    margin: 2px 5px 0px 5px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0 5px;
+    text-align: center;
+}
+.l4 a{
+    text-decoration: none;
+}
+#dd{
+    padding-top: 15px;
+}
+.l7{
+color:#1e4c8d ;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: black;
+}
+.l6{
+    margin: 5px 5px;
+  }
+.l8{
+    padding: 9px 10px;
+
+    margin:  0 0  0 115px ;
+}
+.l9{
+    margin: 2px 35px;
+
+}
+.flight{
+    padding: 9px 10px;
+    margin:  0 0  0 115px ;
+    background-color: rgb(201, 196, 196);
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px 35px;
+}
+.l10{
+    
+    border-radius: 20px;
+    margin: 2px 35px;
+    padding: 12px 20px;
+    
+}
+.div2 li:hover{
+    background-color:rgb(201, 196, 196);
+}
+.div3 li:hover{
+    background-color: rgb(201, 196, 196);
+    border-radius: 20px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.span{
+    color: #2b77e0;
+}
+.h2{
+    margin: 80px 100px 40px;
+}
+
+.head1{
+    margin-top: 20px;
+}
+.div5 i{
+   margin:  0 10px;
+   position: relative;
+   left: 35px;
+} 
+ .text{
+    border: 2px solid #facb49;
+   padding: 10px 10px 10px 30px;
+}
+#text{
+    border: 2px solid #facb49;
+    padding: 10px 30px;
+
+} 
+.text2{
+    border: 2px solid #facb49;
+    background-color: #4073bb;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+}
+.text2:hover{
+    background-color:#375c91;
+}
+.text3{
+    margin-left: 10px;
+    border: 2px solid #facb49;
+    padding: 10px 20px;
+}
+.div5{
+   
+    margin-left: 70px;
+} 
+select{
+    border: none;
+   
+}
+.select1{
+    margin: 40px 20px 10px 120px;
+}
+.select2{
+    margin: 40px 20px 10px 0px;
+}
+.select3{
+    margin:40px 20px 10px 0px ;
+}
+.div20{
+    margin-top: 100px;
+    background-color:#003580;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 100px 20px ;
+}
+.email{
+    margin: 20px 0px 4px 0px;
+    width: 25%;
+  padding: 18px 10px;
+}
+input::placeholder {
+    font-size: 20px;
+}
+.div20 button{
+    background-color: #4073bb;
+    border-radius: 3px;
+    padding: 18px 20px;
+    color: aliceblue;
+    margin-right: 100px;
+}
+.box{
+    margin: 2px 0px 0  -120px ;
+
+}
+.lbox{
+    margin: 10px 100px 0 0;
+    text-align: left;
+    right: 100px;
+}
+.div21{
+    background-color: #0e3163;
+    font-weight: bold;
+}
+.div21 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.div21 ul li{
+    text-decoration: none;
+     text-decoration: underline;
+    display: inline-block;
+    margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+ .div22 p{
+     text-align: center;
+     margin: 30px;
+ }   
+.div22 img{
+    margin: 2px 28px 2px 298px;
+} 
+
+
+
+

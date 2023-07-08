@@ -1,0 +1,406 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* start navbar */
+.c1
+{
+    color: white;
+    margin-left:  150px;
+}
+#navbar{
+    background-color:#003580;
+    padding: 15px;
+
+}
+.div1 ul li{
+    display: inline-block;
+}
+.div1 ul a{
+    text-decoration: none;
+    color: white;
+}
+#d{
+    display: flex;
+}
+.div2{
+    margin-left: 680px;
+    margin-bottom: 30px;
+}
+.list ul{
+    margin-bottom: 50px;
+}
+.l1{
+  margin: 5px 8px;
+}
+.l2{
+    margin: 5px 8px;
+  
+  }
+.l2 img{
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.l3{
+    margin: 1px 8px 8px 5px;
+    padding: 5px 10px; 
+    border: 1px solid white;
+
+  }
+.l4{
+    margin: 2px 5px 0px 5px;
+    border: .5px solid white;
+    background-color: white;
+  
+    text-align: center;
+}
+.l4 a{
+    text-decoration: none;
+}
+
+
+#dd{
+    padding-top: 15px;
+}
+.l7{
+color:#1e4c8d ;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: black;
+}
+.l6{
+    margin: 5px 5px;
+    font-size: 20px;
+  }
+.l8{
+    padding: 9px 10px;
+
+    margin:  0 0  0 115px ;
+}
+.l9{
+    margin: 2px 35px;
+    
+
+}
+.flight{
+    padding: 9px 10px;
+    margin:  0 0  0 115px ;
+    background-color: rgb(201, 196, 196);
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px 35px;
+}
+.l10{
+    
+    border-radius: 20px;
+    margin: 2px 35px;
+    padding: 12px 20px;
+    
+}
+.div2 li:hover{
+    background-color:rgb(201, 196, 196);
+}
+.div3 li:hover{
+    background-color: rgb(201, 196, 196);
+    border-radius: 20px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+/* start woring */
+#woring{
+    border: 1px solid yellow;
+}
+.h4{
+    margin: 2px 60px;
+    padding: 12px 20px;
+
+}
+.a1{
+    color: #1e4c8d;
+}
+.h5{
+    margin: 2px 80px;
+    padding: 12px 20px;
+}
+.par{
+    display: flex;
+}
+.par1{
+    margin: 2px 80px;
+    padding: 12px 20px;
+}
+.par1 input{
+padding: 40px;
+
+}
+/* start head1 */
+
+.head1{
+    background-color: rgb(216, 213, 213);
+   width: 100%;
+}
+.head1{
+    /* margin-top: 20px; */
+}
+.div5 i{
+    left: -287px;
+    position: relative;
+    z-index: 2;
+}
+.text{
+    border: 4px solid #facb49;
+   padding: 12px 100px;
+}
+.text2{
+    border: 4px solid #facb49;
+    background-color: #4073bb;
+    color: white;
+    font-size: 25px;
+    padding: 6px 12px;
+    position: relative;
+    /* top: 3px; */
+}
+.text3{
+    margin-left: -20px;
+    border: 4px solid #facb49;
+    padding: 10px 100px;
+}
+.div5{
+    margin-left: 130px;
+}
+.ch{
+    padding: 20px 5px;
+}
+.ch a{
+    text-decoration: none;
+    color: black;
+}
+.f i{
+    margin-left: 300px;
+}
+ /* End Head  */
+ /* start heads */
+ .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  /* start head2 */
+  .div8{
+display: flex;
+justify-content: space-around;
+margin: 20px;
+  }
+  .div9{
+      padding: 20px 10px;
+      border: 1px  solid lightgrey;
+  }
+ #head3{
+     margin: 30px;
+ } 
+ .div10{
+     display: flex;
+     justify-content: space-around;
+ }
+ .div11{
+     border: 1px solid lightgrey;
+     margin: 20px 40px;
+ }
+ .h{
+     margin: 10px 2px;
+     padding: 10px;
+ }
+ .div11 a{
+     text-decoration: none;
+     color: #1e4c8d;
+ }
+ .div11 a:hover{
+     color: rgb(236, 174, 57);
+ }
+ /* start head4 */
+ #head5
+ {
+     display: flex;
+     background-color: #afc6e6;
+     margin: 30px 0;
+ }
+ .h33{
+     margin: 10px 0 5px 140px;
+ }
+ /* start head7 */
+.div33{
+    background-image: url(../images/milan2.webp);
+ background-repeat: no-repeat;
+height: 350px;
+width: 400px;
+margin: 20px 15px 0  15px;
+}
+.div34{
+    background-image: url(../images/roma.webp);
+background-repeat: no-repeat;
+height: 350px;
+width: 400px;
+margin: 20px 15px 0 15px;
+}
+.div35{
+    background-image: url(../images/bres.webp);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 400px;
+    margin: 20px 15px 0 15px;
+}
+.div36{
+    background-image: url(../images/madrid2.webp);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 400px;
+    margin: 20px 15px 0 15px;
+}
+.div32{
+    display: flex;
+    justify-content: space-around;
+}
+.div32 a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+.div32 a:hover{
+    color: rgb(247, 182, 62);
+}
+ /* start footer */
+ 
+.div20{
+    background-color: #00224f;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 100px 20px ;
+}
+.email{
+    margin: 20px 0px 4px 0px;
+    width: 25%;
+  padding: 18px 10px;
+}
+input::placeholder {
+    font-size: 20px;
+}
+.div20 button{
+    background-color: #4073bb;
+    border-radius: 3px;
+    padding: 18px 20px;
+    color: aliceblue;
+    margin-right: 100px;
+}
+.box{
+    margin: 2px 0px 0  -210px ;
+
+}
+.lbox{
+    margin: 10px 0 0 0;
+    text-align: left;
+    right: 100px;
+}
+.div21{
+    background-color: #003580;
+    font-weight: bold;
+}
+.div21 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.div21 ul li{
+    text-decoration: none;
+     text-decoration: underline;
+    display: inline-block;
+    margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+ .div22 p{
+     text-align: center;
+     margin: 30px;
+ }   
+.div22 img{
+    margin: 2px 28px 2px 298px;
+} 
+.span{
+    color: #2b77e0;
+}
